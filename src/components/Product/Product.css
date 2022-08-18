@@ -1,0 +1,66 @@
+.product img {
+    width: 286px;
+    height: 286px;
+    /* padding: 8px 8px 0 8px; */
+    border-radius: 8px;
+    margin: 7px;
+
+}
+
+.product {
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    /* height: 510px; */
+    position: relative;
+}
+
+.product-info {
+    margin: 0 10px;
+    text-align: left;
+    padding: 4px 10px;
+}
+
+.product-info p {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 7px;
+    text-align: left;
+}
+
+.shoe-btn {
+    margin-top: 70px;
+}
+
+.btn-cart {
+    width: 100%;
+    background: #e0931f;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-cart .btn-text {
+    margin-right: 5px;
+}
+
+.btn-cart:hover {
+    background-color: brown;
+    color: white;
+}
